@@ -1,0 +1,127 @@
+{
+  "format": "scripture burrito",
+  "meta": {
+    "version": "1.0.0",
+    "category": "source",
+    "generator": {
+      "softwareName": "Aquifer Git Exporter",
+      "softwareVersion": "0.0.1"
+    },
+    "defaultLocale": "en",
+    "dateCreated": "2024-08-08T17:39:50+02:00",
+    "normalization": "NFC"
+  },
+  "idAuthorities": {
+    "scribe": {
+      "id": "http://www.scribe.bible",
+      "name": {
+        "en": "Scribe application"
+      }
+    },
+    "aquifer": {
+      "id": "http://aquifer.bible",
+      "name": {
+        "en": "Bible Aquifer"
+      }
+    }
+  },
+  "identification": {
+    "primary": {
+      "github": {
+        "24cb7326-8b9a-11ef-a55f-67f34929a3c7": {
+          "revision": "1",
+          "timestamp": "2024-08-08T17:39:50+02:00"
+        }
+      }
+    },
+    "name": {
+      "en": "Video Bible Dictionary Links",
+      "fr": "Liens pour Dictionnaire Biblique en Vidéo"
+    },
+    "abbreviation": {
+      "en": "VBD"
+    }
+  },
+  "confidential": false,
+  "languages": [
+    {
+      "tag": "fr",
+      "name": {
+        "en": "English"
+      },
+      "scriptDirection": "ltr"
+    }
+  ],
+  "type": {
+    "flavorType": {
+      "name": "parascriptural",
+      "flavor": {
+        "name": "x-videolinks"
+      },
+      "currentScope": {
+        "MRK": []
+      }
+    }
+  },
+  "copyright": {
+    "licenses": [
+      {
+        "ingredient": "license.md"
+      }
+    ]
+  },
+  "localizedNames": {
+  "name-MRK": {
+      "abbr": {
+        "en": "Mark"
+      },
+      "long": {
+        "en": "The Good News According to Mark"
+      }
+    },
+    "FishingNet": {
+      "short": {
+        "en": "Fishing Net",
+        "hi": "मछली पकड़ने का जाल"
+        }
+    },
+    "JordanRiver": {
+      "short": {
+        "en": "Jordan River",
+        "hi": "जॉर्डन नदी"
+        }
+    },
+    "SeaOfGalilee": {
+      "short": {
+        "en": "Sea of Galilee",
+        "hi": "गलील सागर"
+        }
+    },
+    "Wilderness": {
+      "short": {
+        "en": "Wilderness",
+        "hi": "जंगल"
+        }
+    }
+    },
+  "ingredients": {
+  "LICENSE.md": {
+    "checksum": {
+      "md5": "3c2f848e6aaf41409b90e2b9198550da"
+    },
+    "mimeType": "text/markdown",
+    "size": 1309,
+    "scope": {}
+  },
+  "MRK.tsv": {
+    "checksum": {
+      "md5": "f2d3c3b5761a33087d69ec3a2d8b5d51"
+    },
+    "mimeType": "text/tab-separated-values",
+    "size": 1457,
+    "scope": {
+      "MRK": []
+    }
+  }
+}
+}
